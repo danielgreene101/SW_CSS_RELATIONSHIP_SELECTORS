@@ -1,0 +1,76 @@
+//**
+1 +
+2 +
+3 +
+4 x
+5 x
+6 +
+7 +
+8 +
+9 +
+10 +
+11 +
+12 +
+13 x
+14 x
+**//
+
+header {
+    border: solid;
+    border-color: pink;
+    border-width: 1px;
+}
+
+.month-list li {
+    list-style: none;
+    float; left;
+    display: inline;
+    margin: 20px 30px;
+}
+
+.month-list {
+    font: purple;
+}
+
+.disabled {
+    font: grey;
+}
+
+.active {
+    font: yellow;
+}
+
+
+
+.cr {
+    background-color: red;
+}
+
+
+.cb {
+    background-color: blue;
+}
+
+.parent h4 {
+    border: 1px;
+    border-radius: 40%;
+}
+
+.grandparent h4 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.grandparent div div div {
+    color: red;
+}
+
+.grandparent div div .blue {
+    color: blue;
+}
